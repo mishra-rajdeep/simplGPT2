@@ -1,11 +1,11 @@
 # simplGPT2
 
-**simplGPT2** is a minimal implementation of GPT-2 in PyTorch from scratch (attention, LayerNorm, Transformer blocks), with support for importing pretrained weights and fine‑tuning on tasks like IMDB sentiment classification and DailyDialog dialogue generation.
+**simplGPT2** is a clean, minimal and readable implementation of GPT-2 in PyTorch from scratch. It includes core components like Attention, LayerNorm, Transformer blocks and support for importing pretrained weights which are finetuned on tasks like IMDB sentiment classification and DailyDialog dialogue generation.
 
 ## Features
 
 - Manual GPT-2 components: causal multi‑head attention, LayerNorm, Feed‑Forward, residual connections
-- Pretrained weight loader for HuggingFace GPT-2
+- Pretrained weight loader from HuggingFace GPT-2
 - Fine‑tuning on:
   - **IMDB** (binary sentiment classification)
   - **DailyDialog** (prompt‑response dialogue bot)
